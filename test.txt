@@ -1,0 +1,13 @@
+https://blog.csdn.net/qq_52837539/article/details/120420424
+
+https://zhuanlan.zhihu.com/p/77783347
+
+https://blog.csdn.net/zong596568821xp/article/details/81318934
+
+sudo nano /etc/apt/sources.list 
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
+
+/etc/apt/sources.list.d/raspi.list 
+deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+sudo apt-get update
